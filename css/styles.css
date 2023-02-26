@@ -54,7 +54,6 @@ body {
 .container {
 	padding-left: 15px;
 	padding-right: 15px;
-
 	width: 1158px;
 	margin: 0 auto;
 }
@@ -70,6 +69,12 @@ body {
 .header-container {
 	display: flex;
 	align-items: center;
+	background-color: var(--white-color);
+	padding: 24px 0;
+	border: 1px solid var(--white-text-footer);
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
 }
 .header-navigation {
 	display: flex;
@@ -88,8 +93,6 @@ body {
 	gap: 40px;
 }
 .page-header {
-	background-color: var(--white-color);
-	padding: 24px 0;
 }
 .logo {
 	font-family: "Raleway", sans-serif;
@@ -113,6 +116,8 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--firma-background-color);
 }
+.mail-nav:hover,
+.mail-nav:focus,
 .site-nav:hover,
 .site-nav:focus {
 	color: var(--firma-color);
